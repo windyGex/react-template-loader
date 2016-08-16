@@ -1,0 +1,21 @@
+{
+  "name": "react-template-loader",
+  "version": "1.0.0",
+  "description": "React template loader for webpack.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.alibaba-inc.com:seek/react-template-loader.git"
+  },
+  "author": "xing.gex",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "hash-sum": "^1.0.2",
+    "loader-utils": "^0.2.15",
+    "parse5": "^2.2.0"
+  }
+}
