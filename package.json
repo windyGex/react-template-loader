@@ -13,6 +13,10 @@
   "author": "xing.gex",
   "license": "ISC",
   "dependencies": {
+    "babel-generator": "^6.11.4",
+    "babel-traverse": "^6.13.0",
+    "babel-types": "^6.13.0",
+    "babylon": "^6.8.4",
     "cheerio": "^0.20.0",
     "hash-sum": "^1.0.2",
     "loader-utils": "^0.2.15"
