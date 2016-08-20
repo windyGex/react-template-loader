@@ -22,7 +22,7 @@ tnpm install @ali/react-template-loader --save-dev
 ### RT文件编写格式
 
 ```js
-<Component>
+<SeekComponent>
 <template>
   <input className="new-todo" type="text" placeholder="What needs to be done?"
     onKeyDown="{this.handleKeyDown.bind(this)}" />
@@ -44,5 +44,5 @@ export default class AddTodo extends React.Component{
   }
 }
 </script>
-</Component>
+</SeekComponent>
 ```

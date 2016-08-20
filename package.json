@@ -19,9 +19,10 @@
     "babylon": "^6.8.4",
     "cheerio": "^0.20.0",
     "hash-sum": "^1.0.2",
-    "loader-utils": "^0.2.15"
+    "loader-utils": "^0.2.15",
+    "react-templates": "^0.5.2"
   },
-  "publishConfig": {                                                                                                    
-    "registry": "http://registry.npm.alibaba-inc.com"                                                                   
-  }   
+  "publishConfig": {
+    "registry": "http://registry.npm.alibaba-inc.com"
+  }
 }
