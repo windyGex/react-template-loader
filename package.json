@@ -1,6 +1,6 @@
 {
   "name": "@ali/react-template-loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React template loader for webpack.",
   "main": "lib/index.js",
   "scripts": {
