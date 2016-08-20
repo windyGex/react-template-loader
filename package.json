@@ -1,6 +1,6 @@
 {
   "name": "@ali/react-template-loader",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React template loader for webpack.",
   "main": "lib/index.js",
   "scripts": {
@@ -20,6 +20,7 @@
     "cheerio": "^0.20.0",
     "hash-sum": "^1.0.2",
     "loader-utils": "^0.2.15",
+    "qs": "^6.2.1",
     "react-templates": "^0.5.2"
   },
   "publishConfig": {
