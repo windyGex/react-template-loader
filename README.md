@@ -4,19 +4,17 @@ react-template-loader是基于webpack的loader，用于seek component的编写�
 
 ### 安装
 
-```shell
+```
 tnpm install @ali/react-template-loader --save-dev
 ```
 
 ### 配置
 
 ```js
-
-    { 
-        test: /\.rt$/, 
-        loader: '@ali/react-template-loader'
-    }
-
+{
+    test: /\.rt$/,
+    loader: '@ali/react-template-loader'
+}
 ```
 
 ### RT文件编写格式
