@@ -12,13 +12,15 @@ tnpm install @ali/seek-component-loader --save-dev
 
 ```js
 {
-    test: /\.sc$/,
-    loader: '@ali/seek-component-loader',
-    query: {
+  test: /\.sc$/,
+  loader: '@ali/seek-component-loader',
+  query: {
+    loaders: {
       js: 'babel',
       css: 'style!css',
       sass: 'style!css!sass'
     }
+  }
 }
 ```
 
