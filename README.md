@@ -13,7 +13,12 @@ tnpm install @ali/seek-component-loader --save-dev
 ```js
 {
     test: /\.sc$/,
-    loader: '@ali/seek-component-loader'
+    loader: '@ali/seek-component-loader',
+    query: {
+      js: 'babel',
+      css: 'style!css',
+      sass: 'style!css!sass'
+    }
 }
 ```
 
@@ -26,9 +31,10 @@ tnpm install @ali/seek-component-loader --save-dev
     onKeyDown="{this.handleKeyDown.bind(this)}" />
 </template>
 
-<style>
+<!-- 目前只支持css/sass，默认css -->
+<style lange="sass">
   .new-todo {
-    /* some class */
+    /* some sass or scss */
   }
 </style>
 
