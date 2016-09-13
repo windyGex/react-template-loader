@@ -5,8 +5,7 @@
   "main": "lib/index.js",
   "files": ["lib"],
   "scripts": {
-    "lint": "eslint lib",
-    "prepublish": "tnpm run lint"
+    "lint": "eslint lib"
   },
   "repository": {
     "type": "git",
