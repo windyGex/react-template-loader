@@ -1,19 +1,19 @@
-## @ali/seek-component-loader
+## seek-component-loader
 
-seek-component-loader是webpack的loader，用于seek component文件的编译。
+Write single file component use react template.
 
-### 安装
+### Install
 
 ```
-tnpm install @ali/seek-component-loader --save-dev
+tnpm install seek-component-loader --save-dev
 ```
 
-### 配置
+### Config
 
 ```js
 {
   test: /\.sc$/,
-  loader: '@ali/seek-component-loader',
+  loader: 'seek-component-loader',
   query: {
     loaders: {
       js: 'babel',
@@ -24,7 +24,7 @@ tnpm install @ali/seek-component-loader --save-dev
 }
 ```
 
-### SC文件编写格式
+### Write sinlge file component.
 
 ```js
 <SeekComponent>
@@ -33,10 +33,8 @@ tnpm install @ali/seek-component-loader --save-dev
     onKeyDown="{this.handleKeyDown.bind(this)}" />
 </template>
 
-<!-- 目前只支持css/sass，默认css -->
 <style lange="sass">
   .new-todo {
-    /* some sass or scss */
   }
 </style>
 
@@ -58,3 +56,7 @@ tnpm install @ali/seek-component-loader --save-dev
 </script>
 </SeekComponent>
 ```
+
+### Know Issues
+
+* Not support stateless component.
